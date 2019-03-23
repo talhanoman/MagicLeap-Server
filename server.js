@@ -95,8 +95,5 @@ app.post('/order', (req, res)=>{
 
 
 
+app.listen(process.env.PORT || 3001, () => console.log("server is running"))
 
-
-app.listen(process.env.PORT || 3001, function () {
-    console.log('App is listening on port 3001')
-})
